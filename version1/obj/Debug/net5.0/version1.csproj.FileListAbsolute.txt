@@ -1,0 +1,16 @@
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\bin\Debug\net5.0\version1.exe
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\bin\Debug\net5.0\version1.deps.json
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\bin\Debug\net5.0\version1.runtimeconfig.json
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\bin\Debug\net5.0\version1.runtimeconfig.dev.json
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\bin\Debug\net5.0\version1.dll
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\bin\Debug\net5.0\ref\version1.dll
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\bin\Debug\net5.0\version1.pdb
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\obj\Debug\net5.0\version1.csproj.AssemblyReference.cache
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\obj\Debug\net5.0\version1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\obj\Debug\net5.0\version1.AssemblyInfoInputs.cache
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\obj\Debug\net5.0\version1.AssemblyInfo.cs
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\obj\Debug\net5.0\version1.csproj.CoreCompileInputs.cache
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\obj\Debug\net5.0\version1.dll
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\obj\Debug\net5.0\ref\version1.dll
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\obj\Debug\net5.0\version1.pdb
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\version1\obj\Debug\net5.0\version1.genruntimeconfig.cache
