@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LtLv9rpxhYKDgyb443aSgaRcPFyjc+BcLYv/8tj6dMWpKHRJK2z3hGUHw7hC1tpA7Bax0BPglMtYAfubWuyjYA==",
+  "dgSpecHash": "nU/DQP9VN9wGGgciPZldbT6bGRvL3VsO6guiPmP0/gGK43C8Gy7006sMbKrgpgP5Zhwb9eGdUNGp1gcUvF1fmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Phui\\Desktop\\OS_Lab\\casestudy2\\original\\original.csproj",
+  "projectFilePath": "D:\\Git\\OS-Casestudy2-Synchronization\\original\\original.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,5 +1,11 @@
 ﻿using System;
 using System.Threading;
+//First Check your buffer 
+//Second Check state can add queue or not queue
+//Third Check state can pop queue or not pop
+//IF State == 1 (Full) will Dequeue until state == 0 !2 !0
+//IF State == 0 (Empty) Cannot Dequeue until state == 1 !1 !2
+//IF State == 2 (Have object) will continue to add queue and can dequeue !1 !0
 
 namespace OS_Problem_02
 {
@@ -14,20 +20,35 @@ namespace OS_Problem_02
        //ใส่ข้อมูลเมื่อคิวไม่เต็ม
         static void EnQueue(int eq)
         {
-            TSBuffer[Back] = eq;
-            Back++;
-            Back %= 10;
-            Count += 1;
+            if(Count != 0)
+            {
+                TSBuffer[Back] = eq;
+                Back++;
+                Back %= 10;
+                Count += 1;
+            }
+            else{
+                Console.WriteLine("Full Queue");
+            }
+           
         }
 
         static int DeQueue()
         {
             int x = 0;
-            x = TSBuffer[Front];
-            Front++;
-            Front %= 10;
-            Count -= 1;
+            if(Count != 10)
+            { 
+                x = TSBuffer[Front];
+                Front++;
+                Front %= 10;
+                Count -= 1;
+            }
+            else
+            {
+                Console.WriteLine("Empty Queue");
+            }
             return x;
+        
         }
 
         static void th01()
@@ -36,7 +57,6 @@ namespace OS_Problem_02
 
             for (i = 1; i < 51; i++)
             {
-                
                 EnQueue(i);
                 Thread.Sleep(5);
             }
@@ -59,26 +79,28 @@ namespace OS_Problem_02
             int j;
           
             for (i=0; i < 60; i++)
-            {
-                j = DeQueue();
-                Console.WriteLine("j={0}, thread:{1}", j, t);
-                Thread.Sleep(100);
+            { 
+                    j = DeQueue();
+                    Console.WriteLine("j={0}, thread:{1}", j, t);
+                    Thread.Sleep(100); 
             }
         }
         //ใส่lock condition variable
         static void Main(string[] args)
         {
             Thread t1 = new Thread(th01);
-            //Thread t11 = new Thread(th011);
+            Thread t11 = new Thread(th011);
+
             Thread t2 = new Thread(th02);
-            //Thread t21 = new Thread(th02);
-            //Thread t22 = new Thread(th02);
+            Thread t21 = new Thread(th02);
+            Thread t22 = new Thread(th02);
 
             t1.Start();
-            //t11.Start();
+            t11.Start();
+
             t2.Start(1);
-            //t21.Start(2);
-            //t22.Start(3);
+            t21.Start(2);
+            t22.Start(3);
 
             //หมดแล้วต้องหยุดรอ
         }

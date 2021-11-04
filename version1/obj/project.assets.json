@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Phui\\Desktop\\OS_Lab\\casestudy2\\version1\\version1.csproj",
+      "projectUniqueName": "D:\\Git\\OS-Casestudy2-Synchronization\\version1\\version1.csproj",
       "projectName": "version1",
-      "projectPath": "c:\\Users\\Phui\\Desktop\\OS_Lab\\casestudy2\\version1\\version1.csproj",
+      "projectPath": "D:\\Git\\OS-Casestudy2-Synchronization\\version1\\version1.csproj",
       "packagesPath": "C:\\Users\\Phui\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Phui\\Desktop\\OS_Lab\\casestudy2\\version1\\obj\\",
+      "outputPath": "D:\\Git\\OS-Casestudy2-Synchronization\\version1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Phui\\AppData\\Roaming\\NuGet\\NuGet.Config"
