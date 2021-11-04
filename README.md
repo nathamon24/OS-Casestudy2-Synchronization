@@ -1,1 +1,2 @@
-OS-Casestudy2-Synchronization
+Synchronization
+Operating Systems - 3D/1
