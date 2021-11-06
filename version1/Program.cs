@@ -16,37 +16,23 @@ namespace OS_Problem_02
         static int Back = 0;
         static int Count = 0;
 
-       //เมื่อคิวไม่ว่าง ถึงจะ DeQueue ได้
-       //ใส่ข้อมูลเมื่อคิวไม่เต็ม
         static void EnQueue(int eq)
         {
-            if(Count != 0)
-            {
-                TSBuffer[Back] = eq;
-                Back++;
-                Back %= 10;
-                Count += 1;
-            }
-            else{
-                Console.WriteLine("Full Queue");
-            }
-           
+            
+            TSBuffer[Back] = eq;
+            Back++;
+            Back %= 10;
+            Count += 1;
+          
         }
 
         static int DeQueue()
         {
             int x = 0;
-            if(Count != 10)
-            { 
-                x = TSBuffer[Front];
-                Front++;
-                Front %= 10;
-                Count -= 1;
-            }
-            else
-            {
-                Console.WriteLine("Empty Queue");
-            }
+            x = TSBuffer[Front];
+            Front++;
+            Front %= 10;
+            Count -= 1;
             return x;
         
         }
@@ -56,20 +42,29 @@ namespace OS_Problem_02
             int i;
 
             for (i = 1; i < 51; i++)
-            {
-                EnQueue(i);
-                Thread.Sleep(5);
+            {   
+                if(Count != 10)
+                {
+                    EnQueue(i);
+                    Thread.Sleep(5);
+                }
+               
             }
         }
 
         static void th011()
         {
             int i;
-            //ใส่ข้อมูลเมื่อคิวไม่เต็ม
+            
             for (i = 100; i < 151; i++)
             {
-                EnQueue(i);
-                Thread.Sleep(5);
+                if(Count != 10)
+                {
+                    EnQueue(i);
+                    Thread.Sleep(5);
+                }
+               
+                
             }
         }
 
@@ -79,13 +74,16 @@ namespace OS_Problem_02
             int j;
           
             for (i=0; i < 60; i++)
-            { 
+            {       
+                if(Count != 0){
                     j = DeQueue();
                     Console.WriteLine("j={0}, thread:{1}", j, t);
                     Thread.Sleep(100); 
+                }
+                
             }
+           
         }
-        //ใส่lock condition variable
         static void Main(string[] args)
         {
             Thread t1 = new Thread(th01);
