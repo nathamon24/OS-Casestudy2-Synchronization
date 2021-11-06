@@ -10,8 +10,7 @@ namespace OS_Problem_02
         static int Back = 0;
         static int Count = 0;
 
-       //เมื่อคิวไม่ว่าง ถึงจะ DeQueue ได้
-       //ใส่ข้อมูลเมื่อคิวไม่เต็ม
+   
         static void EnQueue(int eq)
         {
             TSBuffer[Back] = eq;
@@ -45,7 +44,7 @@ namespace OS_Problem_02
         static void th011()
         {
             int i;
-            //ใส่ข้อมูลเมื่อคิวไม่เต็ม
+
             for (i = 100; i < 151; i++)
             {
                 EnQueue(i);
@@ -65,7 +64,7 @@ namespace OS_Problem_02
                 Thread.Sleep(100);
             }
         }
-        //ใส่lock condition variable
+   
         static void Main(string[] args)
         {
             Thread t1 = new Thread(th01);
@@ -80,7 +79,7 @@ namespace OS_Problem_02
             //t21.Start(2);
             //t22.Start(3);
 
-            //หมดแล้วต้องหยุดรอ
+
         }
     }
 }
