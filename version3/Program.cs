@@ -20,7 +20,10 @@ namespace OS_Problem_02
         static void EnQueue(int eq)
         {
             lock(_Lock){
-                
+                while(Count == 10){
+                    Monitor.Wait(_Lock);
+                    Console.WriteLine("<----------Full---------->");
+                }
                 TSBuffer[Back] = eq;
                 Back++;
                 Back %= 10;
@@ -32,15 +35,18 @@ namespace OS_Problem_02
 
         static int DeQueue()
         {
-            lock(_Lock){
-                    
+                lock(_Lock){
+                    while(Count == 0){
+                        Monitor.Wait(_Lock);
+                        Console.WriteLine("<----------Empty---------->");
+                    }
                 int x = 0;
                 x = TSBuffer[Front];
                 Front++;
                 Front %= 10;
                 Count -= 1;
                 return x;
-            }
+        }
             
         
         }
@@ -53,6 +59,7 @@ namespace OS_Problem_02
             {   
                 lock(_Lock){
                     EnQueue(i);
+                    Monitor.Pulse(_Lock);
                 }  
                 Thread.Sleep(5);
             }
@@ -66,6 +73,7 @@ namespace OS_Problem_02
             {   
                 lock(_Lock){
                     EnQueue(i);
+                    Monitor.Pulse(_Lock);
                 }
                 Thread.Sleep(5);
             }
@@ -77,10 +85,10 @@ namespace OS_Problem_02
             int j;
           
              for (i=0; i < 60; i++)
-            {   
-                lock(_Lock){
+            {   lock(_Lock){
                     j = DeQueue();
                     Console.WriteLine("j={0}, thread:{1}", j, t);
+                    Monitor.Pulse(_Lock);
                 }
                 Thread.Sleep(100); 
             }
@@ -102,7 +110,7 @@ namespace OS_Problem_02
             t21.Start(2);
             t22.Start(3);
 
-
+            
 
         }
     }

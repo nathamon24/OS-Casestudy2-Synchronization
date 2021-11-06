@@ -1,0 +1,16 @@
+D:\Git\OS-Casestudy2-Synchronization\version2\bin\Debug\net5.0\version2.exe
+D:\Git\OS-Casestudy2-Synchronization\version2\bin\Debug\net5.0\version2.deps.json
+D:\Git\OS-Casestudy2-Synchronization\version2\bin\Debug\net5.0\version2.runtimeconfig.json
+D:\Git\OS-Casestudy2-Synchronization\version2\bin\Debug\net5.0\version2.runtimeconfig.dev.json
+D:\Git\OS-Casestudy2-Synchronization\version2\bin\Debug\net5.0\version2.dll
+D:\Git\OS-Casestudy2-Synchronization\version2\bin\Debug\net5.0\ref\version2.dll
+D:\Git\OS-Casestudy2-Synchronization\version2\bin\Debug\net5.0\version2.pdb
+D:\Git\OS-Casestudy2-Synchronization\version2\obj\Debug\net5.0\version2.csproj.AssemblyReference.cache
+D:\Git\OS-Casestudy2-Synchronization\version2\obj\Debug\net5.0\version2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\OS-Casestudy2-Synchronization\version2\obj\Debug\net5.0\version2.AssemblyInfoInputs.cache
+D:\Git\OS-Casestudy2-Synchronization\version2\obj\Debug\net5.0\version2.AssemblyInfo.cs
+D:\Git\OS-Casestudy2-Synchronization\version2\obj\Debug\net5.0\version2.csproj.CoreCompileInputs.cache
+D:\Git\OS-Casestudy2-Synchronization\version2\obj\Debug\net5.0\version2.dll
+D:\Git\OS-Casestudy2-Synchronization\version2\obj\Debug\net5.0\ref\version2.dll
+D:\Git\OS-Casestudy2-Synchronization\version2\obj\Debug\net5.0\version2.pdb
+D:\Git\OS-Casestudy2-Synchronization\version2\obj\Debug\net5.0\version2.genruntimeconfig.cache
