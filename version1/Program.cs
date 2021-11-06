@@ -100,7 +100,6 @@ namespace OS_Problem_02
             t21.Start(2);
             t22.Start(3);
 
-            //หมดแล้วต้องหยุดรอ
         }
     }
 }

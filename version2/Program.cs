@@ -15,33 +15,25 @@ namespace OS_Problem_02
         static int Front = 0;
         static int Back = 0;
         static int Count = 0;
-        //---------------Add Lock---------------//
-        private static object _Lock = new object();
+
         static void EnQueue(int eq)
         {
-            lock(_Lock){
-                
-                TSBuffer[Back] = eq;
-                Back++;
-                Back %= 10;
-                Count += 1;
-            }
-                
+            
+            TSBuffer[Back] = eq;
+            Back++;
+            Back %= 10;
+            Count += 1;
           
         }
 
         static int DeQueue()
         {
-            lock(_Lock){
-                    
-                int x = 0;
-                x = TSBuffer[Front];
-                Front++;
-                Front %= 10;
-                Count -= 1;
-                return x;
-            }
-            
+            int x = 0;
+            x = TSBuffer[Front];
+            Front++;
+            Front %= 10;
+            Count -= 1;
+            return x;
         
         }
 
@@ -51,10 +43,15 @@ namespace OS_Problem_02
 
             for (i = 1; i < 51; i++)
             {   
-                lock(_Lock){
+                while(Count == 10){}
+            
+                if(Count != 10)
+                {
                     EnQueue(i);
-                }  
-                Thread.Sleep(5);
+                    Thread.Sleep(5);
+                }
+      
+               
             }
         }
 
@@ -63,11 +60,16 @@ namespace OS_Problem_02
             int i;
             
             for (i = 100; i < 151; i++)
-            {   
-                lock(_Lock){
+            {
+                while(Count == 10){}
+               
+                if(Count != 10)
+                {
                     EnQueue(i);
+                    Thread.Sleep(5);
                 }
-                Thread.Sleep(5);
+               
+                
             }
         }
 
@@ -76,13 +78,16 @@ namespace OS_Problem_02
             int i;
             int j;
           
-             for (i=0; i < 60; i++)
-            {   
-                lock(_Lock){
+            for (i=0; i < 60; i++)
+            {       
+                while(Count == 0){}
+                if(Count != 0){
                     j = DeQueue();
                     Console.WriteLine("j={0}, thread:{1}", j, t);
+                    Thread.Sleep(100); 
                 }
-                Thread.Sleep(100); 
+                
+                
             }
            
         }
@@ -101,8 +106,6 @@ namespace OS_Problem_02
             t2.Start(1);
             t21.Start(2);
             t22.Start(3);
-
-
 
         }
     }
