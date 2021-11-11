@@ -1,0 +1,16 @@
+E:\BearKS\Operating-System\Case_Study2\version9\bin\Debug\net5.0\version9.exe
+E:\BearKS\Operating-System\Case_Study2\version9\bin\Debug\net5.0\version9.deps.json
+E:\BearKS\Operating-System\Case_Study2\version9\bin\Debug\net5.0\version9.runtimeconfig.json
+E:\BearKS\Operating-System\Case_Study2\version9\bin\Debug\net5.0\version9.runtimeconfig.dev.json
+E:\BearKS\Operating-System\Case_Study2\version9\bin\Debug\net5.0\version9.dll
+E:\BearKS\Operating-System\Case_Study2\version9\bin\Debug\net5.0\ref\version9.dll
+E:\BearKS\Operating-System\Case_Study2\version9\bin\Debug\net5.0\version9.pdb
+E:\BearKS\Operating-System\Case_Study2\version9\obj\Debug\net5.0\version9.csproj.AssemblyReference.cache
+E:\BearKS\Operating-System\Case_Study2\version9\obj\Debug\net5.0\version9.GeneratedMSBuildEditorConfig.editorconfig
+E:\BearKS\Operating-System\Case_Study2\version9\obj\Debug\net5.0\version9.AssemblyInfoInputs.cache
+E:\BearKS\Operating-System\Case_Study2\version9\obj\Debug\net5.0\version9.AssemblyInfo.cs
+E:\BearKS\Operating-System\Case_Study2\version9\obj\Debug\net5.0\version9.csproj.CoreCompileInputs.cache
+E:\BearKS\Operating-System\Case_Study2\version9\obj\Debug\net5.0\version9.dll
+E:\BearKS\Operating-System\Case_Study2\version9\obj\Debug\net5.0\ref\version9.dll
+E:\BearKS\Operating-System\Case_Study2\version9\obj\Debug\net5.0\version9.pdb
+E:\BearKS\Operating-System\Case_Study2\version9\obj\Debug\net5.0\version9.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\bin\Debug\net5.0\original.exe
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\bin\Debug\net5.0\original.deps.json
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\bin\Debug\net5.0\original.runtimeconfig.json
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\bin\Debug\net5.0\original.runtimeconfig.dev.json
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\bin\Debug\net5.0\original.dll
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\bin\Debug\net5.0\ref\original.dll
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\bin\Debug\net5.0\original.pdb
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\obj\Debug\net5.0\original.csproj.AssemblyReference.cache
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\obj\Debug\net5.0\original.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\obj\Debug\net5.0\original.AssemblyInfoInputs.cache
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\obj\Debug\net5.0\original.AssemblyInfo.cs
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\obj\Debug\net5.0\original.csproj.CoreCompileInputs.cache
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\obj\Debug\net5.0\original.dll
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\obj\Debug\net5.0\ref\original.dll
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\obj\Debug\net5.0\original.pdb
+C:\Users\Phui\Desktop\OS_Lab\casestudy2\original\obj\Debug\net5.0\original.genruntimeconfig.cache

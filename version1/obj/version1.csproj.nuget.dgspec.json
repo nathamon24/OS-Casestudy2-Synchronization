@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Phui\\Desktop\\OS_Lab\\casestudy2\\version1\\version1.csproj": {}
+    "D:\\Git\\OS-Casestudy2-Synchronization\\version1\\version1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Phui\\Desktop\\OS_Lab\\casestudy2\\version1\\version1.csproj": {
+    "D:\\Git\\OS-Casestudy2-Synchronization\\version1\\version1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Phui\\Desktop\\OS_Lab\\casestudy2\\version1\\version1.csproj",
+        "projectUniqueName": "D:\\Git\\OS-Casestudy2-Synchronization\\version1\\version1.csproj",
         "projectName": "version1",
-        "projectPath": "C:\\Users\\Phui\\Desktop\\OS_Lab\\casestudy2\\version1\\version1.csproj",
+        "projectPath": "D:\\Git\\OS-Casestudy2-Synchronization\\version1\\version1.csproj",
         "packagesPath": "C:\\Users\\Phui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Phui\\Desktop\\OS_Lab\\casestudy2\\version1\\obj\\",
+        "outputPath": "D:\\Git\\OS-Casestudy2-Synchronization\\version1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Phui\\AppData\\Roaming\\NuGet\\NuGet.Config"

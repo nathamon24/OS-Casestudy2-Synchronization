@@ -9,7 +9,6 @@ namespace OS_Problem_02
         static int Front = 0;
         static int Back = 0;
         static int Count = 0;
-
         static void EnQueue(int eq)
         {
             TSBuffer[Back] = eq;
@@ -17,7 +16,6 @@ namespace OS_Problem_02
             Back %= 10;
             Count += 1;
         }
-
         static int DeQueue()
         {
             int x = 0;
@@ -27,7 +25,6 @@ namespace OS_Problem_02
             Count -= 1;
             return x;
         }
-
         static void th01()
         {
             int i;
@@ -49,8 +46,6 @@ namespace OS_Problem_02
                 Thread.Sleep(5);
             }
         }
-
-
         static void th02(object t)
         {
             int i;
